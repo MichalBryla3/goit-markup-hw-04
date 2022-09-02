@@ -150,8 +150,12 @@ body {
   width: 206px;
   height: 56px;
 }
-.instagram-icon {
+.instagram-icon { width: 44px;
+   
+  height:44px}
+.instagram-icon:hover {
   fill: red;
+  background-color: red;
 }
 
 .art-color {
@@ -188,7 +192,9 @@ body {
   background-color: white;
   fill: #afb1b8;
 }
-.client:hover {
+.client:hover,
+.client:focus,
+.client:active {
   fill: #2196f3;
   border-color: #2196f3;
 }
