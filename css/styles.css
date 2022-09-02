@@ -163,6 +163,9 @@ body {
 
 .respo-picture {
   padding: 0px 15px 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team {
   background-color: #f5f4fa;
@@ -181,8 +184,21 @@ body {
   height: 56px;
 }
 .instagram-icon {
-  width: 44px;
-  height: 44px;
+  margin: 0px;
+  color: blue;
+  background-color: red;
+  fill: green;
+}
+
+.instagram-icon:hover {
+  background-color: yellow;
+  fill: orange;
+}
+.instagram-icons {
+  display: flex;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
 }
 
 .art-color {
@@ -314,4 +330,8 @@ body {
 .container {
   width: 1200px;
   margin: auto;
+}
+.footer-icon {
+  fill: white;
+  border: 1px solid #ffffff1a;
 }
