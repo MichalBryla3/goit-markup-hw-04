@@ -122,19 +122,18 @@ body {
 }
 .container-items-lorem {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
   padding-bottom: 94px;
 }
+
 .responsibilities {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .respo-picture {
   padding: 0px 15px 0px;
 }
-
 .our-team {
   background-color: #f5f4fa;
 
@@ -146,6 +145,15 @@ body {
   gap: 30px;
   padding-bottom: 94px;
 }
+.icons-team {
+  display: flex;
+  width: 206px;
+  height: 56px;
+}
+.instagram-icon {
+  fill: red;
+}
+
 .art-color {
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -166,8 +174,25 @@ body {
   color: #757575;
   line-height: 1.18;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
+.our-clients {
+  display: flex;
+}
+
+.client {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: white;
+  fill: #afb1b8;
+}
+.client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
 .buttons {
   cursor: pointer;
   background-color: #f5f4fa;
