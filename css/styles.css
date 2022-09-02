@@ -60,6 +60,25 @@ body {
   gap: 50px;
 }
 
+.contact-date {
+  display: flex;
+  justify-content: center;
+}
+.contact-date > a {
+  color: #757575;
+  fill: #757575;
+}
+
+.envelope-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.smartphone-icon {
+  margin: 10px;
+}
+
 .link {
   text-decoration: none;
   color: black;
@@ -69,7 +88,9 @@ body {
 .link:active,
 .link:hover {
   color: #2196f3;
+  fill: #2196f3;
 }
+
 .section {
   padding: 94px 0px;
 }
@@ -80,6 +101,15 @@ body {
   width: 100%;
   display: flex;
   text-align: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: 50% 50%;
 }
 .title-main {
   font-size: 44px;
@@ -150,12 +180,9 @@ body {
   width: 206px;
   height: 56px;
 }
-.instagram-icon { width: 44px;
-   
-  height:44px}
-.instagram-icon:hover {
-  fill: red;
-  background-color: red;
+.instagram-icon {
+  width: 44px;
+  height: 44px;
 }
 
 .art-color {
@@ -192,9 +219,9 @@ body {
   background-color: white;
   fill: #afb1b8;
 }
+.client:active,
 .client:hover,
-.client:focus,
-.client:active {
+.client:focus {
   fill: #2196f3;
   border-color: #2196f3;
 }
@@ -221,7 +248,9 @@ body {
   justify-content: center;
   padding-bottom: 50px;
 }
-
+.button-nav > li {
+  margin: 0px;
+}
 .list {
   display: flex;
   flex-wrap: wrap;
