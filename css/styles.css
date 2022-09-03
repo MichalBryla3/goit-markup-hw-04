@@ -64,9 +64,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .contact-date > a {
   color: #757575;
   fill: #757575;
+  text-decoration: none;
 }
 
 .envelope-icon {
