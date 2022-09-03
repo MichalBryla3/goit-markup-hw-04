@@ -169,7 +169,6 @@ body {
 }
 .our-team {
   background-color: #f5f4fa;
-
   padding-bottom: 50px;
 }
 .our-team-list {
@@ -180,25 +179,21 @@ body {
 }
 .icons-team {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   width: 206px;
   height: 56px;
 }
-.instagram-icon {
-  margin: 0px;
-  color: blue;
-  background-color: red;
-  fill: green;
+.icon {
+  fill: rgb(255, 255, 255);
 }
-
-.instagram-icon:hover {
-  background-color: yellow;
-  fill: orange;
+.icons-hover {
+  width: 50px;
+  height: 50px;
 }
-.instagram-icons {
-  display: flex;
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
+.icons-hover:hover {
+  fill: #2196f3;
 }
 
 .art-color {
@@ -206,6 +201,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .name {
@@ -278,6 +274,11 @@ body {
 .item {
   flex-basis: calc((100% - 2 * 30px) / 3);
   border-bottom: 1px solid #eeeeee;
+  display: flex;
+}
+.item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .title-portfolio {
@@ -349,7 +350,6 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   fill: rgba(255, 255, 255, 0.1);
-  
 }
 
 .subtitle-social-media {
@@ -360,11 +360,12 @@ body {
   padding: 0px 0px 20px 0;
 }
 .join-to-us {
-  margin-left: 0px;
-  margin-top: 72px;
+  margin: 72px 0px;
 }
+
 .footer-container {
+  display: block;
   width: 300px;
-  height: 252px;
-  margin: 72px 0px 72px 296.25px;
+  margin-left: 215px;
+  margin: 60px 0px 0px 620px;
 }
