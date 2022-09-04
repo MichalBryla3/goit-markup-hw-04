@@ -201,7 +201,9 @@ body {
   width: 50px;
   height: 50px;
 }
-.icons-hover:hover {
+.icons-hover:hover,
+.icons-hover:focus,
+.icons-hover:active {
   filter: contrast(2) brightness(1.15);
   fill: #2196f3;
 }
@@ -359,8 +361,14 @@ body {
   margin: 5px;
   fill: rgba(255, 255, 255, 0.1);
 }
-.social-icon-color:hover {
+.social-icon-color:hover,
+.social-icon-color:focus,
+.social-icon-color:active {
   background-color: #2196f3;
+}
+.footer-icon {
+  width: 44px;
+  height: 44px;
 }
 
 .subtitle-social-media {
