@@ -186,27 +186,6 @@ body {
   gap: 30px;
   padding-bottom: 94px;
 }
-.icons-team {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 206px;
-  height: 56px;
-}
-.icon {
-  fill: rgb(255, 255, 255);
-}
-.icons-hover {
-  width: 50px;
-  height: 50px;
-}
-.icons-hover:hover,
-.icons-hover:focus,
-.icons-hover:active {
-  filter: contrast(2) brightness(1.15);
-  fill: #2196f3;
-}
 
 .art-color {
   background-color: white;
@@ -231,6 +210,32 @@ body {
   text-align: center;
   padding-bottom: 16px;
 }
+
+.icons-to-social-media-team {
+  display: flex;
+  justify-content: center;
+  padding: 0px 32px;
+}
+.social-icon-color-team {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.social-icon-color-team:hover,
+.social-icon-color-team:focus,
+.social-icon-color-team:active {
+  background-color: #2196f3;
+  margin: 5px;
+}
+.icon-team {
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+}
+
+
 .our-clients {
   display: flex;
   padding: 0px;
