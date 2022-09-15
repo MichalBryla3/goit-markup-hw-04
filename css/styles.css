@@ -192,7 +192,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
 }
 
 .name {
@@ -214,25 +213,21 @@ body {
 .icons-to-social-media-team {
   display: flex;
   justify-content: center;
-  padding: 0px 32px;
+  align-items: center;
+  padding: 0px 30px 30px;
 }
-.social-icon-color-team {
-  display: flex;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  margin: 5px;
-}
-.social-icon-color-team:hover,
-.social-icon-color-team:focus,
-.social-icon-color-team:active {
+.icon-team:hover,
+.icon-team:focus,
+.icon-team:active {
   background-color: #2196f3;
-  margin: 5px;
+  fill: white;
 }
 .icon-team {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
+
+  border-radius: 50%;
 }
 
 .our-clients {
@@ -356,6 +351,8 @@ body {
 
 .social-icon-color {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   background: rgba(255, 255, 255, 0.1);
   width: 45px;
@@ -373,6 +370,7 @@ body {
 .footer-icon {
   width: 44px;
   height: 44px;
+  fill: white;
 }
 
 .subtitle-social-media {
